@@ -1,0 +1,48 @@
+.monsterinsights-wooedd-upsell-left {
+	width: 50%;
+	display: table-cell;
+	float: left;
+}
+
+.monsterinsights-wooedd-upsell-right {
+	width: 50%;
+	display: table-cell;
+	float: left;
+}
+
+.monsterinsights-wooedd-upsell-image {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+}
+
+.monsterinsights-wooedd-upsell-image-small {
+	display: none;
+}
+
+.monsterinsights-wooedd-upsell-row {
+	display: table;
+}
+
+.monsterinsights-wooedd-upsell-left p {
+	margin: 1em 0;
+	font-size: 16px;
+}
+
+@media (max-width: 900px) {
+	.monsterinsights-wooedd-upsell-left {
+		width: 100%;
+	}
+
+	.monsterinsights-wooedd-upsell-right {
+		display: none;
+	}
+
+	.monsterinsights-wooedd-upsell-image-small {
+		display: block;
+	}
+
+	.monsterinsights-wooedd-upsell-image-large {
+		display: none;
+	}
+}
