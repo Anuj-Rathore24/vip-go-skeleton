@@ -1,0 +1,21 @@
+/*
+ Theme Name:   IDG Accademy theme
+ Description:  Twenty nineteen Child Theme
+ Author:       IDG Sweden Dev
+ Author URI:   https://www.idg.se
+ Template:     twentynineteen 
+ Text Domain:  idgaccademy
+ Version:      1.0.1
+*/
+
+
+/* Footer remove 50% width style */
+#colophon .widget-column .widget {
+    width: auto;
+    margin: auto;
+}
+
+/* Site footer background */
+footer.site-footer {
+    background: #eee;
+}
